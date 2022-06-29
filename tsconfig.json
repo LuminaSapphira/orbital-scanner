@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "types": ["lua-types/jit"]
+  },
+  "tstl": {
+    "luaTarget": "JIT",
+    "noHeader": true,
+    "noImplicitSelf": true
+  },
+  "include": [
+    "./**/*",
+    "./factorio-modified.d.ts",
+    "./factorio-data-stage.d.ts",
+    "./factorio-control-stage.d.ts",
+
+  ]
+}
